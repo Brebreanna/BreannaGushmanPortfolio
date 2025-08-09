@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Breanna | UX Designer</title>
+</head>
+<body>
+  <div id="page-transition"></div>
+  <header>
+  <img src="images/home_bow.png" alt="Bow graphic" class="bow-top" />
+  <nav>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+    <section class="intro-section">
+      <div class="intro-text">
+        <h1>Hi, I’m <em>Breanna</em> —<br>a UX Designer</h1>
+        <p>Blending beauty, brains, and a little bit of sparkle.</p>
+        <a href="work.html" class="view-button">୨୧ View My Work</a>
+      </div>
+      <img src="images/home_woman.png" alt="Breanna portrait" class="intro-image" />
+    </section>
+
+    <section class="philosophy-box">
+      <h2>My Design Philosophy</h2>
+      <ul>
+        <li>❤️ Empathize with users and understand their needs</li>
+        <li>👜 Craft delightful experiences with a touch of charm</li>
+        <li>🎀 Pay attention to the finer details</li>
+      </ul>
+    </section>
+  </main>
+</body>
+  <script>
+  window.addEventListener('load', () => {
+    const transition = document.getElementById('page-transition');
+    setTimeout(() => {
+      transition.classList.add('fade-out');
+    }, 300); // Wait 300ms then fade out
+  });
+</script>
+</html>

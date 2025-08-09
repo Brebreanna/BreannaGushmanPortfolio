@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css" />
+  <title>About Breanna</title>
+</head>
+<body>
+  <div id="page-transition"></div>
+<header>
+  <img src="images/home_bow.png" alt="Bow graphic" class="bow-top" />
+  <nav>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+ <main class="about-page">
+  <section class="intro-section">
+    <div class="intro-text">
+      <h1>About Me 𖹭</h1>
+      <p>
+        I'm Breanna, a UX Designer and Computer Engineering senior at UMass Amherst. I'm passionate about creating inclusive, intuitive digital products. I believe that digital experiences should be as inclusive as they are intuitive. Whether I’m prototyping in Figma or coding in Python, I love blending design thinking with technical skills to build accessible, human-centered products that truly serve people.
+
+My journey began with building personal websites and grew into a deep curiosity about how people interact with technology. That curiosity evolved into a passion for solving real-world problems through thoughtful UX design and functional engineering.
+
+Outside of work, I enjoy hiking, exploring new creative hobbies, and having conversations with people from all walks of life. I’m always excited to learn something new and build things that make a real impact.
+      </p>
+    </div>
+    <img src="images/aboutme_woman.png" alt="About Breanna" class="intro-image" />
+  </section>
+
+  <section class="tools-section">
+    <h2>Tools I Use</h2>
+    <img src="images/aboutme_tools.png" alt="Design Tools" class="tools-image" />
+  </section>
+</main>
+  <script>
+  window.addEventListener('load', () => {
+    const transition = document.getElementById('page-transition');
+    setTimeout(() => {
+      transition.classList.add('fade-out');
+    }, 300); // Wait 300ms then fade out
+  });
+</script>
+
+</body>
+</html>

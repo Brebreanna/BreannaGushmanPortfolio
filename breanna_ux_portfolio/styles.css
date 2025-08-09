@@ -1,0 +1,342 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fff8f5;
+  color: #6e3c3c;
+}
+
+header {
+  text-align: center;
+  padding-top: 20px;
+  position: relative;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #8b4a4a;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-list a:hover {
+  color: #a35757;
+  transition: 0.3s ease;
+}
+
+.bow-top {
+  width: 100px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.intro-text {
+  max-width: 400px;
+  padding: 20px;
+}
+
+.intro-text h1 {
+  font-size: 32px;
+  color: #a35757;
+  margin-bottom: 10px;
+}
+
+.intro-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.intro-image {
+  width: 280px;
+  height: auto;
+  margin: 20px;
+}
+
+.view-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f3c6c6;
+  color: #6e3c3c;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.philosophy-box {
+  background-color: #fff0f0;
+  border: 1px solid #f3c6c6;
+  padding: 30px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.philosophy-box h2 {
+  font-size: 24px;
+  color: #a35757;
+  margin-bottom: 20px;
+}
+
+.philosophy-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.philosophy-box li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.project-grid div {
+  background-color: #ffeef1;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #f3c6c6;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #f3c6c6;
+  border-radius: 8px;
+}
+
+.contact-form button {
+  background-color: #f3c6c6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.intro-text {
+  max-width: 600px;
+  padding: 20px;
+}
+
+/* ===== Tools Section ===== */
+.tools-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.tools-section h2 {
+  font-size: 24px;
+  color: #a35757;
+  margin-bottom: 10px;
+}
+
+.tools-image {
+  width: 300px;
+  max-width: 90%;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.project-card {
+  background-color: #ffeef1;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #f3c6c6;
+  text-align: center;
+}
+
+.project-button {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #f3c6c6;
+  color: #6e3c3c;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.project-button:hover {
+  background-color: #f1bcbc;
+}
+
+body {
+  cursor: url("images/cursor.png") 16 16, auto;
+}
+
+.project-links {
+  background-color: #fff0f5;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.project-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  background-color: #f3c6c6;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff9eb3;
+}
+
+.project-button{
+  cursor: url("images/cursor.png"), pointer;
+}
+
+#page-transition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/bow_transition.jpeg') center center / cover no-repeat;
+  z-index: 9999;
+  opacity: 1;
+  pointer-events: none;
+  transition: opacity 2s ease-in-out;
+}
+
+#page-transition.fade-out {
+  opacity: 0;
+}
+
+/* ===== Generic centered container (used by project pages) ===== */
+.container {
+  width: min(900px, 92%);
+  margin: 0 auto;
+}
+
+/* ===== Project detail layout & typography ===== */
+.project-detail h1 {
+  font-size: 36px;
+  color: #a35757;
+  text-align: center;
+  margin: 24px 0 8px;
+}
+
+.project-tagline {
+  text-align: center;
+  color: #8b4a4a;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.project-hero {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto 32px;
+  border-radius: 16px;
+}
+
+.project-section {
+  max-width: 800px;
+  margin: 28px auto;
+}
+
+.project-section h2 {
+  font-size: 24px;
+  color: #a35757;
+  margin: 0 0 10px;
+}
+
+.project-section p {
+  margin: 0 0 12px;
+  line-height: 1.8;
+}
+
+.project-section ul {
+  margin: 0 0 12px 1.2rem;
+  line-height: 1.8;
+}
+
+/* Quick Access block (you already added .project-links/.button) */
+.project-links { 
+  max-width: 800px; 
+  margin: 24px auto 32px; 
+}

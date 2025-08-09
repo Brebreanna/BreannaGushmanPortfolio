@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css" />
+  <title>My Work</title>
+</head>
+<body>
+  <div id="page-transition"></div>
+<header>
+  <img src="images/home_bow.png" alt="Bow graphic" class="bow-top" />
+  <nav>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+    <h1>My Work</h1>
+    <p>A collection of UX design projects</p>
+
+    <!-- 💻 PROJECT GRID -->
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/project1.png" alt="The Global Conservatory Preview" />
+        <h3>The Global Conservatory – Music Education Platform</h3>
+        <p>A real-world UX project for a global music school startup, focused on enhancing accessibility and clarity in program discovery.</p>
+        <a class="view-button" href="project1.html">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/project2.png" alt="Quizzlr Preview" />
+        <h3>Quizzlr – Study Platform</h3>
+        <p>A multiplayer flashcard platform designed to make studying interactive, competitive, and fun for students, built in Figma with a focus on gamified engagement and intuitive UI.                               </p>
+        <a class="view-button" href="project2.html">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/project3.png" alt="Smart Home UX for Older Adults Preview" />
+        <h3>Smart Home UX for Older Adults </h3>
+        <p>Conducted UX research and developed a design framework focused on creating emotionally supportive, accessible smart home technology for older adults.</p>
+        <a class="view-button" href="project3.html">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/project4.png" alt="Grow Up Green Preview" />
+        <h3>Grow Up Green</h3>
+        <p>Designed a responsive web and mobile experience help parents discover and resell affordable secondhand items through sustainable, user-friendly design.</p>
+        <a class="view-button" href="project4.html">View Project</a>
+      </div>
+
+
+    <div class="project-card">
+      <img src="images/project5.png" alt="Cookr App Preview" />
+      <h3>Cookr – Mobile App</h3>
+      <p>Designed a UX prototype for a recipe app that helps college students discover diverse, quick meal options through an intuitive, streamlined user flow.</p>
+      <a class="view-button" href="project5.html">View Project</a>
+    </div>
+
+    </div>
+  </main>
+</body>
+  <script>
+  window.addEventListener('load', () => {
+    const transition = document.getElementById('page-transition');
+    setTimeout(() => {
+      transition.classList.add('fade-out');
+    }, 300); // Wait 300ms then fade out
+  });
+</script>
+</html>
